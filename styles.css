@@ -11,11 +11,7 @@
     box-sizing: border-box;
     border: 1px solid #ddd;
     background-color: white;
-    transition: background-color 0.2s ease;
-}
-
-.square.hovered {
-    background-color: #333;
+    transition: background-color 0.3s ease;
 }
 
 button {
