@@ -38,7 +38,7 @@ The project consists of three main files:
 No installation required! Simply clone the repository and open `index.html` in your browser:
 
 ```bash
-git clone https://github.com/yourusername/etch-a-sketch.git
+git clone https://github.com/stevensuna/etch-a-sketch.git
 cd etch-a-sketch
 ```
 ## License
