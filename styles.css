@@ -4,12 +4,10 @@
     flex-wrap: wrap;
     width: 960px;
     height: 960px;
-    margin: 0 auto;
+    margin: 20px auto; /* Added top margin for button space */
 }
 
 .square {
-    width: calc(960px / 16);
-    height: calc(960px / 16);
     box-sizing: border-box;
     border: 1px solid #ddd;
     background-color: white;
@@ -18,4 +16,12 @@
 
 .square.hovered {
     background-color: #333;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
